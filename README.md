@@ -32,12 +32,14 @@ Event specific query parameters should be appended to the URL as follows:
 
 `curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100`
 
+### Considerations
 This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, separation of concerns, the open/closed principle, error handling, unit testing, and an intuitive, responsive, user interface.
 
 You can write the app in either Swift or Objective-C, but _you should not use any third party libraries_.  
 
 Remember we are looking for a demonstration of your skills, not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you  a few evenings at most.
 
+### Submissions
 To submit your code, please create a private [Bitbucket](https://bitbucket.org) repo (it’s free) and share your code repo with our BitBucket user, `newsapps-ios`. Under no circumstances make the repository public.
 
 _Please email your BBC Careers contact separately as well to confirm your submission._
