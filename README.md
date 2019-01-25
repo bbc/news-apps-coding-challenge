@@ -1,4 +1,4 @@
-# News Apps (iOS) Coding Challenge
+# BBC News Apps (iOS) Coding Challenge
 
 ## Introduction
 You have been asked to kick off a new native iOS news app, initially consisting of two screens. The first screen will simply display a list of the headlines (fetched from a server) and their last updated date. When the user selects a headline, the application then shows a second screen containing the headline, the last time it was updated, as well as the introductory paragraph. 
@@ -30,7 +30,9 @@ Event specific query parameters should be appended to the URL as follows:
 * `event=display` – whenever a screen is shown
 * `time=xxx` - the time (in ms) from when the user initiated a request that would show the screen to the point where the screen has been shown
 
-`curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100`
+```bash
+curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
+```
 
 ### Considerations
 This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, separation of concerns, the open/closed principle, error handling, unit testing, and an intuitive, responsive, user interface.
