@@ -10,14 +10,14 @@ The user can also trigger a reload of the data from the server.
 ### API
 The list of headlines is available at
 
-https://github.com/bbc/news-apps-ios-coding-challenge/blob/master/headlines.json
+https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/headlines.json
 
 Note: The returned timestamp is in epoch time but the design calls for this to be a human readable day, month and year. So, for example, "Thursday, 1 January 1970" for an epoch timestamp of 0.
 
 ### Analytics
 The business analyst needs you to record interaction and network events as people use the app. This can be done by issuing “fire and forget” GET requests to
 
-https://raw.githubusercontent.com/fmtvp/recruit-test-data/master/stats
+https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics
 
 Event specific query parameters should be appended to the URL as follows:
 
@@ -26,7 +26,7 @@ Event specific query parameters should be appended to the URL as follows:
 * `event=display` – whenever a screen is shown
 * `data=xxx` - the time (in ms) from when the user initiated a request that would show the screen to the point where the screen has been shown
 
-`curl -G https://raw.githubusercontent.com/fmtvp/recruit-test-data/master/stats?event=load&data=100 `
+`curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100`
 
 This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, separation of concerns, the open/closed principle, error handling, unit testing, and an intuitive, responsive, user interface.
 
