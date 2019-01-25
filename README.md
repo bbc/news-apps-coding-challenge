@@ -9,7 +9,7 @@ Components | Color | Font
 -----------| ------|------
 headline | 0x000000 | large, bold, system font
 last updated | 0x3d3d3d | normal, light, system font, 
-introductory 0x000000 | black | normal, regular, system font
+introductory | 0x000000 | normal, regular, system font
 
 The returned timestamp is in epoch time but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
 
