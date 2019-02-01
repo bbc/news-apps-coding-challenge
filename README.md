@@ -42,7 +42,8 @@ You can write the app in either Swift or Objective-C, but _you should not use an
 Remember we are looking for a demonstration of your skills, not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you  a few evenings at most.
 
 ### Submissions
-To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, `bbcnewsapps`. Under no circumstances make the repository public.
+To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [bbcnewsapps](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
 
+_Under no circumstances make the repository public._
 _Please email your BBC Careers contact separately as well to confirm your submission._
 
