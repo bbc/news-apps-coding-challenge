@@ -19,6 +19,10 @@ The user should also be able to trigger a reload of the data from the server.
 The list of headlines is available at
 https://github.com/bbc/news-apps-ios-coding-challenge/blob/master/headlines.json
 
+```bash
+curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
+```
+
 ### Analytics
 The product manager needs you to record interaction and network events as people use the app. This can be done by issuing “fire and forget” GET requests to
 https://github.com/bbc/news-apps-ios-coding-challenge/blob/master/analytics
@@ -27,19 +31,19 @@ Event specific query parameters should be appended to the URL as follows:
 
 * `event=load` – any network request
 * `time=xxx` - the time (in ms) for the network request to complete
-* `event=display` – whenever a screen is shown
-* `time=xxx` - the time (in ms) from when the user initiated a request that would show the screen to the point where the screen has been shown
+* `event=display` – whenever a screen is shown (the headline or the article)
+* `screen=XXX` - an identifier for the screen that was shown
 
 ```bash
 curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
 
 ### Considerations
-This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, separation of concerns, the open/closed principle, error handling, unit testing, and an intuitive, responsive, user interface.
+This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
 
 You can write the app in either Swift or Objective-C, but _you should not use any third party libraries_.  
 
-Remember we are looking for a demonstration of your skills, not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you  a few evenings at most.
+Remember we are looking for a demonstration of your skills - not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you  a few evenings at most.
 
 ### Submissions
 To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [bbcnewsapps](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
