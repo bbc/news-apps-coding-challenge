@@ -1,7 +1,9 @@
 # BBC News Apps (iOS) Coding Challenge
 
 ## Introduction
-You have been asked to kick off a new native iOS news app, initially consisting of two screens. The first screen will simply display a list of the headlines (fetched from a server) and their last updated date. When the user selects a headline, the application then shows a second screen containing the headline, the last time it was updated, as well as the introductory paragraph. 
+You have been asked to kick off a new native iOS news app, initially consisting of two screens
+- The first screen will simply display a list of the headlines (fetched from a server - see below) and the last updated date
+- When the user taps on a headline, the application then shows a second screen containing the headline and the last updated date again, as well as the introductory paragraph
 
 The designer has asked that the typography be as follows:
 
