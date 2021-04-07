@@ -1,7 +1,7 @@
-# BBC News Apps (iOS) Coding Challenge
+# BBC News Apps (iOS/Android) Coding Challenge
 
 ## Introduction
-You have been asked to kick off a new native iOS news app, initially consisting of two screens
+You have been asked to kick off a new native news app, initially consisting of two screens
 - The first screen will simply display a list of the headlines (fetched from a server - see below) and the last updated date
 - When the user taps on a headline, the application then shows a second screen containing the headline and the last updated date again, as well as the introductory paragraph
 
@@ -40,12 +40,19 @@ Event specific query parameters should be appended to the URL as follows:
 curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
 
-### Considerations
-This is an opportunity to demonstrate your understanding of what modern iOS app development looks like. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
+### Languages
+For iOS roles, you can write the app in either Swift or Objective-C, but _you should not use any third party libraries_.
+For Android roles, you can write the app in either Kotlin or Java, but _you should not use any third party libraries_.
 
-You can write the app in either Swift or Objective-C, but _you should not use any third party libraries_.  
+### Considerations
+This is an opportunity to demonstrate your understanding of what modern app development looks like. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
 
 Remember we are looking for a demonstration of your skills - not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you  a few evenings at most.
+
+### Playbook
+You may find our playbook of use in guiding your development and decision making
+
+https://github.com/bbc/news-weather-apps-playbook
 
 ### Submissions
 To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [bbcnewsapps](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
