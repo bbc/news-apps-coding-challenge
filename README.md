@@ -19,7 +19,7 @@ The user should also be able to trigger a reload of the data from the server.
 
 ### API
 The list of headlines is available at
-https://github.com/bbc/news-apps-ios-coding-challenge/blob/master/headlines.json
+https://github.com/bbc/news-apps-coding-challenge/blob/master/headlines.json
 
 ```bash
 curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
@@ -27,7 +27,7 @@ curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/
 
 ### Analytics
 The product manager needs you to record interaction and network events as people use the app. This can be done by issuing “fire and forget” GET requests to
-https://github.com/bbc/news-apps-ios-coding-challenge/blob/master/analytics
+https://github.com/bbc/news-apps-coding-challenge/blob/master/analytics
 
 Event specific query parameters should be appended to the URL as follows:
 
