@@ -12,9 +12,9 @@ Components | Color | Font
 -----------| ------|------
 headline | 0x000000 | large, bold, system font
 last updated timestamp | 0x3d3d3d | normal, light, system font, 
-introductory | 0x000000 | normal, regular, system font
+introduction | 0x000000 | normal, regular, system font
 
-### Timestamps
+### Last Updated Timestamp
 The returned last updated timestamp is in [epoch time](https://www.epochconverter.com/) but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
 
 ### API
@@ -41,6 +41,7 @@ Event specific query parameters should be appended to the URL as follows:
 ```bash
 curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
+
 ### Tap/Pull To Refresh
 Ideally, the user should also be able to trigger a reload of the data from the server.
 
@@ -54,7 +55,7 @@ Remember we are looking for a demonstration of your skills - not perfection. A c
 
 We think this is likely to take a couple of evenings...please don't feel you have to spend more time on it than that. Again, comments about next steps will help us to understand your thought processes.
 
-This is an opportunity to demonstrate your understanding of what modern app development looks like. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
+As this is an opportunity to demonstrate your understanding of what modern app development looks like, we think it only fair that we share some initial thoughts of our own. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
 
 ### Playbook
 You may find our playbook of use in guiding your development and decision making
