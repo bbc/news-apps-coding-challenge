@@ -11,11 +11,11 @@ The designer has asked that the typography be as follows:
 Components | Color | Font
 -----------| ------|------
 headline | 0x000000 | large, bold, system font
-last updated | 0x3d3d3d | normal, light, system font, 
+last updated timestamp | 0x3d3d3d | normal, light, system font, 
 introductory | 0x000000 | normal, regular, system font
 
 ### Timestamps
-The returned timestamp is in epoch time but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
+The returned last updated timestamp is in [epoch time](https://www.epochconverter.com/) but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
 
 ### API
 A backend engineer in your team has made a first cut of the API available for you to test with. The list of headlines, datestamps and introductions is available at
