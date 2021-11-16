@@ -63,8 +63,9 @@ You may find our playbook of use in guiding your development and decision making
 https://github.com/bbc/news-weather-apps-playbook
 
 ### Submissions
-To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [bbcnewsapps](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
-
-_Under no circumstances make the repository public._
-_Please email your BBC Careers contact separately as well to confirm your submission._
+* To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [bbcnewsapps](https://github.com/bbcnewsapps). 
+* Please note that we will be considering your git commit history during our evaluation.
+* We recommend you state your build environment (e.g. SDK versions, IDE versions) so that we are able to match it when we look at your work. 
+* _Under no circumstances make the repository public._
+* _Please email your BBC Careers contact separately as well to confirm your submission._
 
