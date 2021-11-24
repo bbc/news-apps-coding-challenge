@@ -57,7 +57,7 @@ If you see an improvement on your implementation, adding a comment is also usefu
 
 We think this is likely to take a couple of evenings...please don't feel you have to spend more time on it than that. Again, comments about next steps will help us to understand your thought processes.
 
-As this is an opportunity to demonstrate your understanding of what modern app development looks like, we think it only fair that we share some initial thoughts of our own. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
+As this is an opportunity to demonstrate your understanding of what modern app development looks like, we think it is only fair that we share some initial thoughts of our own. We believe that good contributors to achieving this consist of code readability, unit testing, separation of concerns, open/closed principle, error handling, and an intuitive, responsive, robust and reliable user interface.
 
 ### Playbook
 You may find our playbook of use in guiding your development and decision making
