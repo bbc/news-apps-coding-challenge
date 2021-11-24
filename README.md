@@ -18,11 +18,9 @@ introduction | 0x000000 | normal, regular, system font
 The returned last updated timestamp is in [epoch time](https://www.epochconverter.com/) but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
 
 ### API
-A backend engineer in your team has made a first release of the API available for you to test with. The list of headlines, datestamps and introductions is available at
-https://github.com/bbc/news-apps-coding-challenge/blob/master/headlines.json
-
-```bash
-curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
+A backend engineer in your team has made a first release of the API available for you to test with. The list of headlines, timestamps and introductions is available at 
+```
+https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
 ```
 
 ### Analytics
@@ -38,8 +36,8 @@ Event specific query parameters should be appended to the URL as follows:
 * `event=load` – any network request
 * `time=xxx` - the time (in ms) for the network request to complete
 
-```bash
-curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
+```
+https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
 
 ### Tap/Pull To Refresh
