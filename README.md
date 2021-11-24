@@ -40,8 +40,8 @@ Event specific query parameters should be appended to the URL as follows:
 https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
 
-### Tap/Pull To Refresh
-Ideally, the user should also be able to trigger a reload of the data from the server.
+### Pull To Refresh
+Ideally, the user should also be able to trigger a reload of the data from the server, using a pull to refresh action.
 
 ### Languages
 For iOS roles, you can write the app in either Swift or Objective-C, but _you should avoid third party libraries_. If you use them, please explain why. For clarity, anything in the Apple SDKs we would consider first-party and an essential part of most any iOS app.
