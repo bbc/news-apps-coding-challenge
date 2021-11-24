@@ -44,12 +44,16 @@ https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/anal
 Ideally, the user should also be able to trigger a reload of the data from the server, using a pull to refresh action.
 
 ### Languages
-For iOS roles, you can write the app in either Swift or Objective-C, but _you should avoid third party libraries_. If you use them, please explain why. For clarity, anything in the Apple SDKs we would consider first-party and an essential part of most any iOS app.
+For iOS roles, you can write the app in either Swift or Objective-C.
 
-For Android roles, Kotlin is preferred but Java is also acceptable. If you use third party libraries, please explain why. Avoid using large, app framework and architecture type libraries as this can obscure from us your understanding of the Android framework as well as good architecture and practices.
+For Android roles, Kotlin is preferred but Java is also acceptable. 
 
 ### Considerations
-Remember we are looking for a demonstration of your skills - not perfection. A comment about what you would do next might be better than squeezing in everything but not doing anything to your usual standard. 
+If you use third party libraries, please explain why. Avoid using large, app framework and architecture type libraries as this can obscure from us your understanding of the platform framework as well as good architecture and practices.
+
+Remember we are looking for a demonstration of your skills - not perfection. 
+If you don't have time to write the implementation, add a comment explaining what you would have done. 
+If you see an improvement on your implementation, adding a comment is also useful.
 
 We think this is likely to take a couple of evenings...please don't feel you have to spend more time on it than that. Again, comments about next steps will help us to understand your thought processes.
 
