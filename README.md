@@ -18,11 +18,9 @@ introduction | 0x000000 | normal, regular, system font
 The returned last updated timestamp is in [epoch time](https://www.epochconverter.com/) but the design calls for this to be a human readable day, month and year. So, for example, it should show as "1 January 1970" for an epoch timestamp of 0.
 
 ### API
-A backend engineer in your team has made a first cut of the API available for you to test with. The list of headlines, datestamps and introductions is available at
-https://github.com/bbc/news-apps-coding-challenge/blob/master/headlines.json
-
-```bash
-curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
+A backend engineer in your team has made a first release of the API available for you to test with. The list of headlines, timestamps and introductions is available at 
+```
+https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
 ```
 
 ### Analytics
@@ -38,25 +36,28 @@ Event specific query parameters should be appended to the URL as follows:
 * `event=load` – any network request
 * `time=xxx` - the time (in ms) for the network request to complete
 
-```bash
-curl -G https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
+```
+https://raw.githubusercontent.com/bbc/news-apps-ios-coding-challenge/master/analytics?event=load&data=100
 ```
 
-### Tap/Pull To Refresh
-Ideally, the user should also be able to trigger a reload of the data from the server.
+### Pull To Refresh
+Ideally, the user should also be able to trigger a reload of the data from the server, using a pull to refresh action.
 
 ### Languages
-For iOS roles, you can write the app in either Swift or Objective-C, but _you should avoid third party libraries_. If you use them, please explain why. For clarity, anything in the Apple SDKs we would consider first-party and an essential part of most any iOS app.
+For iOS roles, you can write the app in either Swift or Objective-C.
 
-For Android roles, you can write the app in either Kotlin or Java, but _you should avoid third party libraries_.  If you use them, please explain why. For clarity, anything in the Android SDKs we would consider first-party and an essential part of most any Android app.
+For Android roles, please use Kotlin.
 
 ### Considerations
-Remember we are looking for a demonstration of your skills - not perfection. A comment about what you would do next might be better than squeezing in everything but not doing anything to your usual standard. 
+If you use third party libraries, please explain why. Avoid using large, app framework and architecture type libraries as this can obscure from us your understanding of the platform framework as well as good architecture and practices.
+
+Remember we are looking for a demonstration of your skills - not perfection. 
+If you don't have time to write the implementation, add a comment explaining what you would have done. 
+If you see an improvement on your implementation, adding a comment is also useful.
 
 We think this is likely to take a couple of evenings...please don't feel you have to spend more time on it than that. Again, comments about next steps will help us to understand your thought processes.
 
-As this is an opportunity to demonstrate your understanding of what modern app development looks like, we think it only fair that we share some initial thoughts of our own. We believe that good contributors to achieving this are typically code readability, unit testing, separation of concerns, the open/closed principle, error handling, and an intuitive, responsive, user interface.
-
+As this is an opportunity to demonstrate your understanding of what modern app development looks like, we think it is only fair that we share some initial thoughts of our own. We believe that code readability, unit testing, separation of concerns, open/closed principle, error handling, and an intuitive, responsive, robust and reliable user interface combine to create a high quality end product.
 ### Playbook
 You may find our playbook of use in guiding your development and decision making
 
