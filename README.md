@@ -46,7 +46,7 @@ Ideally, the user should also be able to trigger a reload of the data from the s
 ### Languages
 For iOS roles, you can write the app in either Swift or Objective-C.
 
-For Android roles, Kotlin is preferred but Java is also acceptable. 
+For Android roles, please use Kotlin.
 
 ### Considerations
 If you use third party libraries, please explain why. Avoid using large, app framework and architecture type libraries as this can obscure from us your understanding of the platform framework as well as good architecture and practices.
